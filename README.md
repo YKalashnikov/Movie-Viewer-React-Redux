@@ -3,7 +3,7 @@
 
 
 <h1 align="center">What is it ???</h1>
-    Movie Viewer 
+    Movie Viewer using React Redux API
 
 
 you can clone https://github.com/YKalashnikov/Movie-Viewer-React-Redux.git
