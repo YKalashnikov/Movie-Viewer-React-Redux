@@ -3,8 +3,8 @@ import { connect } from 'react-redux';
 import {addNewMovies} from "../actions/movies";
 
 
-const mapStateToProps = ({movies}) => ({
-      movies:movies.items
+const mapStateToProps = ({NewMovies}) => ({
+  NewMovies:NewMovies.items
     })
 
 const mapDispatchToProps = (dispatch) => ({

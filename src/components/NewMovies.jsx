@@ -23,7 +23,6 @@ import './NewMovies.css';
         response.json().then(data => {
           const movies = data.results;
           const { addNewMovies } = this.props;
-          console.log('n',movies)
           addNewMovies(movies);
         });
 
@@ -35,20 +34,20 @@ import './NewMovies.css';
 
     
    render(){
-     const { movies } = this.props;
+     const { NewMovies } = this.props;
     return(
       
       <section>
         <h2>New releases</h2>
         <div className="newMovies">
-          {! movies ? 'Loading...' : movies.map((movie, index) => {
+          {! NewMovies ? 'Loading...' : NewMovies.map((movie, index) => {
             return (
-              <Link to={`/movie/${movies[index].id}`} key={index} className="movieLink">
-                <img src={movies[index].poster_path === null ? 'http://via.placeholder.com/300x450' : `https://image.tmdb.org/t/p/w300/${movies[index].poster_path}`} alt={`${movies.title} poster`} className="imgResponsive" />
+              <Link to={`/movie/${NewMovies[index].id}`} key={index} className="movieLink">
+                <img src={NewMovies[index].poster_path === null ? 'http://via.placeholder.com/300x450' : `https://image.tmdb.org/t/p/w300/${NewMovies[index].poster_path}`} alt={`${NewMovies.title} poster`} className="imgResponsive" />
 
                 <div className="movieInfo">
-                  <h3>{movies[index].title}</h3>
-                  <p>{movies[index].release_date}</p>
+                  <h3>{NewMovies[index].title}</h3>
+                  <p>{NewMovies[index].release_date}</p>
                 </div>
               </Link>
             )
