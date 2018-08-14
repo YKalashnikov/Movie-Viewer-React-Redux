@@ -2,8 +2,9 @@
   "name": "movieviewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://ykalashnikov.github.io/Movie-Viewer-React-Redux/",
+  "homepage": "https://ykalashnikov.github.io/Movie-Viewer-React-Redux/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "global": "^4.3.2",
     "lodash": "^4.17.10",
     "material-ui": "^0.20.1",

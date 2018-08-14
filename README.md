@@ -1,14 +1,14 @@
 
-<img src='https://github.com/YKalashnikov/Movie-Viewer-React-Redux/blob/gh-pages/video-gif.gif'/>
+<img src='/Users/yuriikalashnikov/Desktop/movieviewer/video-gif.gif'/>
 
 
 # Movie Viewer using React Redux API
 
-➜ [Demo]()
+➜ [Demo](https://ykalashnikov.github.io/Movie-Viewer-React-Redux/)
 
 ### Using
-- YouTube API
-- React
+-  API
+- React, Redux
 - CSS
 
 
@@ -21,7 +21,7 @@ https://github.com/YKalashnikov/Movie-Viewer-React-Redux.git
 $ cd 
 $ yarn install
 $ yarn start
-$ if you run in to a problem, try to insert your youTube API_KEY
+$ if you run in to a problem, try to insert your API_KEY
 ```
 
 ---
