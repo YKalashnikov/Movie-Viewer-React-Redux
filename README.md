@@ -1,19 +1,33 @@
 
-<img src='https://github.com/YKalashnikov/Movie-Viewer-React-Redux/blob/master/video-gif.gif'/>
+<img src='https://github.com/YKalashnikov/Movie-Viewer-React-Redux/blob/gh-pages/video-gif.gif'/>
 
 
-<h1 align="center">What is it ???</h1>
-    Movie Viewer using React Redux API
+# Movie Viewer using React Redux API
+
+A minimalistic UI for searching YouTube Videos.
+
+➜ [Demo]()
+
+### Using
+- YouTube API
+- React
+- CSS
 
 
-you can clone https://github.com/YKalashnikov/Movie-Viewer-React-Redux.git
 
-cd ...
-yarn install
-yarn start
+### Installation
+- Clone this repository
+https://github.com/YKalashnikov/Movie-Viewer-React-Redux.git
 
+```shell
+$ cd 
+$ yarn install
+$ yarn start
+$ if you run in to a problem, try to insert your youTube API_KEY
+```
 
-you may want to use your api key
+---
+
 
 
 
