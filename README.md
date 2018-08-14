@@ -6,7 +6,7 @@
 
 A minimalistic UI for searching YouTube Videos.
 
-➜ [Demo](https://ykalashnikov.github.io/YouTube-API/)
+➜ [Demo]()
 
 ### Using
 - YouTube API
