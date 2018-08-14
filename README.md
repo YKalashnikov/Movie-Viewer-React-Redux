@@ -1,5 +1,5 @@
 
-<img src='/Users/yuriikalashnikov/Desktop/movieviewer/video-gif.gif'/>
+<img src='https://github.com/YKalashnikov/Movie-Viewer-React-Redux/blob/master/video-gif.gif'/>
 
 
 # Movie Viewer using React Redux API
