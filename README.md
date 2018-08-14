@@ -4,8 +4,6 @@
 
 # Movie Viewer using React Redux API
 
-A minimalistic UI for searching YouTube Videos.
-
 ➜ [Demo]()
 
 ### Using
